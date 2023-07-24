@@ -1,0 +1,62 @@
+.song_container{
+  position: relative;
+  /* border: 20px solid forestgreen; */
+  margin-top: 7rem;
+  height: 49rem;
+  overflow-y: auto;
+  margin-bottom: 4rem;
+}
+
+@media (min-width : 1024px){
+  html{
+    font-size: 56.25%;
+  }
+  .song_container{
+    height: 70vh;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 1023px){
+  html{
+    font-size: 50%;
+  }
+  .song_container{
+    height: 65vh;
+  }
+}
+
+@media (min-width : 550px) and (max-width : 767px){
+  html{
+    font-size: 43.75%;
+  }
+  .song_container{
+    height: 69vh;
+    max-width: 700px;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+  }
+}
+
+@media (min-width : 429px) and (max-width : 549px){
+  html{
+    font-size: 37.5%;
+  }
+  .song_container{
+    height: 69vh;
+    max-width: 400px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media(max-width : 428px){
+  html{
+    font-size: 31.25%;
+  }
+  .song_container{
+    height: 69vh;
+    max-width: 400px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}

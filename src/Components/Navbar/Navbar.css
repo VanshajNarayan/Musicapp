@@ -1,0 +1,81 @@
+.Navbar{
+  position: relative;
+}
+
+.Navbar_container{
+  /* border: 2px solid red; */
+  position: fixed;
+  top: 2%;
+  left: 15%;
+  width: 70%;
+  background-color: #313131;
+  box-shadow: 0.8rem 0.8rem 0.4rem #0c0c0cda;
+  padding: 1rem;
+}
+
+.Navbar_container ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Navbar_container ul li a{
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  color: rgb(218, 187, 187);
+}
+
+.Navbar_container ul li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width : 768px) and (max-width : 1023px){
+  html{
+    font-size: 50%;
+  }
+  .Navbar_container{
+    padding: 1.3rem;
+  }
+  .Navbar_container ul{
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width : 550px) and (max-width : 767px){
+  html{
+    font-size: 43.75%;
+  }
+  .Navbar_container ul{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width : 549px){
+  html{
+    font-size: 37.5%;
+  }
+  .Navbar_container ul{
+    font-size: 0.5rem;
+  }
+}
+
+@media(max-width : 428px){
+  html{
+    font-size: 31.25%;
+  }
+  .Navbar_container{
+    width: 80%;
+  }
+  .Navbar_container ul{
+    font-size: 0.5rem;
+  }
+}
+
+
+

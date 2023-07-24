@@ -1,0 +1,28 @@
+.Album_container{
+  /* border: 2px solid red; */
+  margin: 7rem auto;
+  height: 65vh;
+  overflow-y: auto;
+}
+
+.Album_container .album_title{
+  font-size: 3.5rem;
+  color: grey;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  font-weight: 700;
+  max-width: 60%;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.Album_container .album_count{
+  /* border: 2px solid red; */
+  color: grey;
+  letter-spacing: 0.1rem;
+  max-width: 60%;
+  width: 90%;
+  margin: 0px auto;
+  font-size: 2rem;
+  font-weight: 700;
+}

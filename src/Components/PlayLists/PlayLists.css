@@ -1,0 +1,37 @@
+.liked_container{
+  /* border: 2px solid green; */
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liked_container .heart_img img{
+  width: 100px;
+  object-fit: contain;
+  background-color: white;
+}
+
+.liked_container .textContentplaylist .liked{
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+
+.liked_container .textContentplaylist .songCount{
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.liked_container .next_dropDown span a{
+  color: #fff;
+  font-size: 2.5rem;
+}

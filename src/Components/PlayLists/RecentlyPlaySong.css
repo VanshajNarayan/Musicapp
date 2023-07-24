@@ -1,0 +1,26 @@
+.recently_play_song{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  max-width: 70%;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.recently_play_song .music_icon{
+  color: #fff;
+  font-size: 2rem;
+}
+
+.recently_play_song .recentlySongName{
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.recently_play_song .threeDots{
+  color: #fff;
+  font-size: 2rem;
+}

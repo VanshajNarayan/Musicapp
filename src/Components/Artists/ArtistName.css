@@ -1,0 +1,20 @@
+.artistName_container{
+  /* border: 2px solid blue; */
+  width: 65%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artistName_container .artistName{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+}
+
+.artistName_container .artist_forwordIcon a{
+  color: #fff;
+  font-size: 2rem;
+}

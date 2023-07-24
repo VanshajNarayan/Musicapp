@@ -1,0 +1,26 @@
+.album_Section{
+  /* border: 2px solid red; */
+  max-width: 60%;
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.album_Section .ablum_photo img{
+  width: 100px;
+  object-fit: cover;
+}
+
+.album_Section .album_songName{
+  font-size: 1.5rem ;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.album_Section .album_forwardicon a{
+  color: #fff;
+  font-size: 2.2rem;
+}

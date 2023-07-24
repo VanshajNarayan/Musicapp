@@ -1,0 +1,57 @@
+.AllSong .songSection{
+  /* border: 2px solid red; */
+  max-width: 95rem;
+  margin: 1rem auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 5rem; */
+}
+
+.AllSong .songSection img{
+  width: 7rem;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.AllSong .songSection .songName{
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width : 550px) and (max-width : 767px){
+  html{
+    font-size: 43.75%;
+  }
+  .AllSong .songSection .songName{
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media (max-width : 549px){
+  html{
+    font-size: 37.5%;
+  }
+  .AllSong .songSection img{
+    width: 4rem;
+  }
+  .AllSong .songSection .songName{
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media(max-width : 428px){
+  html{
+    font-size: 31.25%;
+  }
+  .AllSong .songSection img{
+    width: 3rem;
+  }
+  .AllSong .songSection .songName{
+    font-size: 0.4rem;
+    letter-spacing: 0.1rem;
+  }
+}

@@ -1,0 +1,25 @@
+.searchResult{
+  /* border: 2px solid red; */
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchResult .searchSongImg img{
+  width: 80px;
+  object-fit: contain;
+}
+
+.searchResult .searchSongName{
+  font-size: 1.7rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+
+.searchResult .searchplayIcon{
+  font-size: 2rem;
+  color: #fff;
+}

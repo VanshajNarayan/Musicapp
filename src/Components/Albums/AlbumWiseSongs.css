@@ -1,0 +1,21 @@
+.albumWiseSongs{
+  /* border: 2px solid red; */
+  max-width: 60%;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.albumWiseSongs .albumwisesongName{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+
+.albumWiseSongs .albumwisesongicon{
+  color: red;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,14 @@
+.recently_played{
+  /* border: 2px solid red; */
+  margin: 7rem auto;
+  height: 65vh;
+  overflow-y: auto;
+}
+
+.recently_played .recentlyPlayedTitle{
+  text-align: center;
+  color: grey;
+  letter-spacing: 0.2rem;
+  margin: 10px 0px;
+  font-size: 3rem;
+}

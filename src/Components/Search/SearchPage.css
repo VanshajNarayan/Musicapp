@@ -1,0 +1,37 @@
+.search_container{
+  /* border: 2px solid red; */
+  max-width: 90rem;
+  margin: 7rem auto;
+  height: 66vh;
+}
+
+.search_container .search_box{
+  /* border: 2px solid red; */
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_container .search_box .input input{
+  width: 70rem;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 2rem 2rem;
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.search_container .search_box .search_btn{
+  border: none;
+  outline: none;
+  padding: 0.8rem 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 2rem 2rem;
+  margin-right: 2rem;
+}

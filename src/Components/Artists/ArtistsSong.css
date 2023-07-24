@@ -1,0 +1,14 @@
+.artistsSongs{
+  /* border: 2px solid red; */
+  max-width: 60%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.artistsSongs .artistsong_Name{
+  color: #ffffffa8;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+}

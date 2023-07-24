@@ -1,0 +1,28 @@
+.AlbumsSong{
+  /* border: 2px solid red; */
+  margin: 7rem auto;
+  height: 65vh;
+  overflow-y: auto;
+}
+
+.AlbumsSong .albumsongFirstDiv{
+  /* border: 2px solid red; */
+  max-width: 60%;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AlbumsSong .albumsongFirstDiv .albumSongBackIcon a{
+  color: grey;
+  font-size: 2.5rem;
+}
+
+.AlbumsSong .albumsongFirstDiv .albumSongcount{
+  color: grey;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}

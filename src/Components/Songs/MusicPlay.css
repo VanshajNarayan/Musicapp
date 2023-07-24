@@ -1,0 +1,145 @@
+.MusicPlay{
+  /* border: 2px solid red; */
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MusicPlay .imgAndText{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MusicPlay .imgAndText .imgPlayer img{
+  width: 6rem;
+  object-fit: contain;
+}
+
+.MusicPlay .imgAndText .songNamePlayer{
+  font-size: 1rem;
+  margin-left: 2rem;
+  color: #fff;
+}
+
+.MusicPlay .heart{
+  /* border: 2px solid green; */
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+}
+
+.MusicPlay .progress_container{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MusicPlay .progress_container .parentProgress{
+  width: 30rem;
+  background-color: #fff;
+  height: 0.8rem;
+  margin: 1rem;
+  border-radius: 2rem 2rem;
+}
+
+.MusicPlay .progress_container .startingTime{
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.MusicPlay .progress_container .parentProgress .childProgress{
+  width: 0%;
+  background: #000000fe;
+  height: 0.8rem;
+  border-radius: 2rem 2rem;
+}
+
+.MusicPlay .progress_container .endingTime{
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.MusicPlay .btn_container{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.MusicPlay .btn_container .pre_icon{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.MusicPlay .btn_container .play_icon{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.MusicPlay .btn_container .next_icon{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width : 768px) and (max-width : 1023px){
+  html{
+    font-size: 50%;
+  }
+  .MusicPlay .progress_container .parentProgress{
+    width: 10rem;
+  }
+}
+
+@media (min-width : 550px) and (max-width : 767px){
+  html{
+    font-size: 43.75%;
+  }
+  .MusicPlay{
+    max-width: 650px;
+  }
+  .MusicPlay .imgAndText .songNamePlayer{
+    font-size: 0.7rem;
+  }
+  .MusicPlay .progress_container{
+    display: none;
+  }
+}
+
+@media (max-width : 549px){
+  html{
+    font-size: 37.5%;
+  }
+  .MusicPlay{
+    max-width: 400px;
+  }
+  .MusicPlay .imgAndText .imgPlayer img{
+    width: 6rem;
+  }
+  .MusicPlay .imgAndText .songNamePlayer{
+    font-size: 0.7rem;
+  }
+  .MusicPlay .heart{
+    font-size: 1rem;
+  }
+  .MusicPlay .progress_container{
+    display: none;
+  }
+  .MusicPlay .btn_container{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width : 428px){
+  html{
+    font-size: 31.25%;
+  }
+  .MusicPlay .imgAndText .songNamePlayer{
+    display: none;
+  }
+}
